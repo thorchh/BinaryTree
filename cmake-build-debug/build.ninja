@@ -52,12 +52,6 @@ build CMakeFiles/BinaryTree.dir/main.cpp.o: CXX_COMPILER__BinaryTree_Debug /User
   OBJECT_DIR = CMakeFiles/BinaryTree.dir
   OBJECT_FILE_DIR = CMakeFiles/BinaryTree.dir
 
-build CMakeFiles/BinaryTree.dir/BinaryTreeNode.cpp.o: CXX_COMPILER__BinaryTree_Debug /Users/thorchristoffersen/CLionProjects/BinaryTree/BinaryTreeNode.cpp || cmake_object_order_depends_target_BinaryTree
-  DEP_FILE = CMakeFiles/BinaryTree.dir/BinaryTreeNode.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
-  OBJECT_DIR = CMakeFiles/BinaryTree.dir
-  OBJECT_FILE_DIR = CMakeFiles/BinaryTree.dir
-
 build CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o: CXX_COMPILER__BinaryTree_Debug /Users/thorchristoffersen/CLionProjects/BinaryTree/BinaryTree.cpp || cmake_object_order_depends_target_BinaryTree
   DEP_FILE = CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -std=gnu++14
@@ -72,7 +66,7 @@ build CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o: CXX_COMPILER__BinaryTree_Debug
 #############################################
 # Link the executable BinaryTree
 
-build BinaryTree: CXX_EXECUTABLE_LINKER__BinaryTree_Debug CMakeFiles/BinaryTree.dir/main.cpp.o CMakeFiles/BinaryTree.dir/BinaryTreeNode.cpp.o CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o
+build BinaryTree: CXX_EXECUTABLE_LINKER__BinaryTree_Debug CMakeFiles/BinaryTree.dir/main.cpp.o CMakeFiles/BinaryTree.dir/BinaryTree.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk
   OBJECT_DIR = CMakeFiles/BinaryTree.dir
   POST_BUILD = :

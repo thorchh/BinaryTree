@@ -88,34 +88,6 @@ void BinaryTree::addTreeNode(const string& value) {
                 tempNode->leftNode_ = tempNodeNotPtr;
             }
         }
-//        cout << endl;
-//        if(value == rootNode_->value_){
-//
-//        }
-//        else if(value>rootNode_->value_){
-//            if(rootNode_->rightNode_ == nullptr){
-//                BinaryTreeNode* temp = new BinaryTreeNode;
-//                temp->value_ = value;
-//                temp->leftNode_ = nullptr;
-//                temp->rightNode_ = nullptr;
-//                rootNode_->rightNode_ = temp;
-//            }
-//            else{
-//                rootNode_->rightNode_.addTreeNode(value);
-//            }
-//        }
-//        else if(value<rootNode_->value_){
-//            if(rootNode_->leftNode_ == nullptr){
-//                BinaryTreeNode* temp = new BinaryTreeNode;
-//                temp->value_ = value;
-//                temp->leftNode_ = nullptr;
-//                temp->rightNode_ = nullptr;
-//                rootNode_->leftNode_ = temp;
-//            }
-//            else{
-//                rootNode_->leftNode_.addTreeNode(value);
-//            }
-//        }
     }
     size_ ++;
 }
